@@ -1,0 +1,49 @@
+<html>
+<head>
+<center>
+<title>User Registration</title>
+</head>
+<style>
+.master
+{
+display:flex;
+justify-content:center;
+}
+
+</style>
+<body>
+<form name="frmregister">
+<table border="1" bgcolor="purple" style="color:white">
+<tr>
+<th colspan="2">User Registration</th>
+</tr>
+<tr>
+<td>Username</td>
+<td><input type="text" id="txtuname" name="txtuname" onblur="usernameexists(this.value)">
+<div style="background-color:pink;color:blue"id="Userexists"></div>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" id="txtpass" name="txtpass"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td nowrap>
+<input type="radio"value="m"checked name="radgender" id="radgender"/>Male
+<input type="radio" value="f" name="radgender" id="radgender" />Female
+</td>
+</tr>
+<tr>
+<td>JOb</td>
+<td><select name="seljob" id="seljob">
+<option>Politics</option>
+<option>IT man</option>
+<option>Teacher</option>
+<option>Farmer</option>
+<option>Other</option>
+</select></td>
+</tr>
+<tr>
+<td colspan="2"><center><button type="submit">Submit</center></button></td>
+</body>
+<html>

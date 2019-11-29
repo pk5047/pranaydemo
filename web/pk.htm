@@ -1,0 +1,94 @@
+<html><head><title>welcome to ait-ycp mumbai</title>
+<style>
+td{
+   background-color:skyblue;
+   color:blue;}
+  
+td:hover{background-color:grey;
+   font-size:22px;}
+th{
+   background-color:orange;
+   color:blue;border:1px solid pink}</style>
+   <link rel="stylesheet" type="text/css"
+   href="myfile.css"/></head>
+<h1 style=' background-color:white;color:blue;'><center>Registration Form</center></h1>
+<body bgcolor='yellow'>
+<form action="pkdetail.php" method="REQUEST" name="frmsubmit" bgcolor='skyblue' align='center'>
+<center>
+<table width='80%' border='5' ALIGN="center">
+<tr>
+<th>USERNAME</th>
+<td><input type='text'autofocus autocomplete placeholder='enter your name' name='txtname'id='txtname'/></td></tr>
+<tr>
+<th>PASSWORD</th>
+<td><input type='password'autofocus autocomplete placeholder='enter your password' name='txtpass'id='txtpass'/></td></tr>
+<tr>
+<th>ADDRESS</th>
+<td><textarea rows='2' cols='20'autofocus autocomplete placeholder='enter your address' name='txtadd'id='txtadd'></textarea></td></tr>
+<tr>
+<th>PINCODE</th>
+<td><input type='number'autofocus required placeholder='enter your pincode' name='txtpin'id='txtpin'/></td></tr>
+<th>EMAIL</th>
+<td><input type='email'autofocus required placeholder='enter your email' name='txtemail'id='txtemail'/></td></tr>
+<th>GENDER</th>
+<td nowrap><input type='radio'autofocus checked value='m' name='txtgen'id='txtgen'/>MALE
+    <input type='radio'autofocus checked value='f' name='txtgen'id='txtgen'/>FEMALE
+    <input type='radio'autofocus checked value='t' name='txtgen'id='txtgen'/>TRANSGENDER</td></tr>
+<th>EDUCATION</th>
+<td NOWRAP><input type='checkbox'checked value='dip' name='txtedu[]'id='txtedu'/>DIPLOMA
+    <input type='checkbox' value='be' name='txtedu[]'id='txtedu'/>BE
+    <input type='checkbox' value='btech' name='txtedu[]'id='txtedu'/>BTECH
+	<input type='checkbox' value='mba' name='txtedu[]'id='txtedu'/>MBA
+	<input type='checkbox' value='cdac' name='txtedu[]'id='txtedu'/>CDAC</td></tr>
+<th>COUNTRY</th>
+<td><select name='txtcountry' id='txtcountry'>
+<option>INDIA</option>
+<option>SWEDAN</option>
+<option selected>US</option>
+<option>UK</option>
+<option>JAPAN</option>
+<option>AFRICA</option>
+<option>CHINA</option></select>
+</td></tr>
+<th>HOBBIES</th>
+<td><select multiple name="selhobbies[]" id="selhobbies">
+<option>PLAYING CRICKET</option>
+<option>SWIMMING</option>
+<option>READING</option>
+<option>WATCHING MOVIE</option>
+<option>TRAVELLING</option>
+<option>VIDEO GAMES</option>
+<option>RUNNING</option>
+</select>
+</td></tr>
+<th>SALARY</th>
+<td>1000<input type='range'min='1000' max='100000' name='txtrange'id='txtrange'/>100000</td></tr>
+<tr>
+<th>DATE</th>
+<td><input type='date' name='txtdate'id='txtdate'/></td></tr>
+<tr>
+<th>PROFILE</th>
+<td><input type='file' name='txtfile'id='txtfile'/></td></tr>
+<tr>
+<td align ='left'><button type='submit'>SUBMIT</button></td>
+<td><input type='reset' value='clear'/></tr>
+<tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table></form></body>
+
+</html>
